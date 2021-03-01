@@ -1,0 +1,31 @@
+{
+    "name": "rogerthomas84/skinny",
+    "description": "Skinny Library",
+    "keywords": ["skinny"],
+    "homepage": "https://github.com/rogerthomas84/skinny",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roger Thomas",
+            "email": "rogere84@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ext-iconv": "*",
+        "ext-gd": "*",
+        "ext-mbstring": "*"
+    },
+    "suggest": {
+        "ext-memcache": "*"
+    },
+    "autoload": {
+        "psr-0": { "Skinny": "src" }
+    },
+    "autoload-dev": {
+        "psr-0": { "SkinnyTests": "tests" }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0.0"
+    }
+}

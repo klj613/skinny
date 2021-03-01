@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="All Skinny Tests">
+            <directory>tests/SkinnyTests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory>src/Skinny</directory>
+            <exclude>
+                <directory>tests/SkinnyTests</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
